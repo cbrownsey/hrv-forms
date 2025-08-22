@@ -1,0 +1,19 @@
+meta {
+  name: Get Responses
+  type: http
+  seq: 4
+}
+
+get {
+  url: {{baseUrl}}/responses
+  body: none
+  auth: inherit
+}
+
+params:query {
+  ~user_id: user_mf9q9pGMrNtrrz
+}
+
+settings {
+  encodeUrl: true
+}
